@@ -3,8 +3,8 @@ const http = require('http');
 const homePage = `
 <!DOCTYPE html>
 <html>
-<meta name=”viewport” content=”width=device-width, initial-scale=1, maximum-scale=1″>
-<meta chartset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta charset="utf-8">
 <head>
 <title>logan的个人网站</title>
 <style type="text/css">
