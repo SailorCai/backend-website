@@ -1,4 +1,4 @@
-const http = requier('http');
+const http = require('http');
 
 const homePage = `
 <!DOCTYPE html>
@@ -31,10 +31,10 @@ const homePage = `
 </html>`;
 
 http.createServer((req, res) => {
-	res.statusCode = 200;
-	res.setHeader('Content-Type', 'text/html');
-	res.end(homePage);
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/html;');
+  res.end(homePage);
 })
 .listen(3000, () => {
-	console.log('Server Running At Port: 3000');
+  console.log('server Tunning At port: 3000');
 });
